@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+    height: 100%;
+    font-family: Lato;
+}
+
+.logo{
+    padding: 3px;
+}
+
+.logo, .tulisan {
+    text-align: center;
+}
+
+.logo2{
+    height: 30%;
+    width: 20%;
+    
+}
+
+.gmbr{
+    height: 55px;
+}
+
+/* dibawah navbar buatan gw */
+
+/* .navigasi{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 3fr 4fr 0.2fr;
+    z-index: 10;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    border-bottom: rgba(255, 255, 255, 0.3) solid 5px;
+    border-top: rgba(255, 255, 255, 0.3) solid 5px;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding: 1px;
+    height: 40px;
+    
+}
+
+.box {
+    padding: 0px;
+}
+
+.navigasi, .button, .tulisan{
+    background-color: #71C9CE;
+}
+
+.navtex {
+    padding-top: 5px;
+    color: white;
+}
+
+.box:hover {
+    background-color: #a6e3e9;
+    cursor: pointer;
+} */
+
+/* navbar grup final? */
+
+#top-navbar{
+    width: 100%;
+    position: fixed;
+    background-color: #71C9CE;
+    z-index: 10;
+    height: 100px;
+    overflow: hidden;
+}
+
+.logo {
+    color: white;
+    padding: 14px 16px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.logo img {
+    height: 75px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#top-navbar .menubar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-bottom: 28px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#top-navbar .menubar a:hover {border-bottom: 6px solid #ffe400;}
+
+.menubar {
+    text-align: right;
+    margin-top: 45px;
+    padding-right: 100px;
+}
+
+/* BOTTOM TEXT */
+
+a{
+    color: black;
+}
+
+a:link{text-decoration: none;}
+
+.company{   
+    position: relative;
+    margin: 0 auto; 
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    font-size: 70px;
+    padding: 20px;
+    max-width: 500px;
+    letter-spacing: 10px;   
+    text-shadow: 2px 2px 10px black; 
+}
+
+.compclas{
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+    width: 100%;
+}
+
+.tulisan{
+    font-size: 17px;
+    font-family: Helvetica;
+}
+
+
+.arrow{
+    height: 100%;
+    width: 4%;
+}
+
+.kepala {
+    width: 100%;
+    position: relative;
+    top: 680px;
+    background-color:rgba(113, 201, 206, 0.8);
+    text-align: center;
+    height: 50px;
+    /* padding-top: -10px; */
+}
+
+.konten {
+    position: absolute;
+    top: 730px;
+    height: 662px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.9);
+    /* z-index: -1; */
+    border-top: solid white 7px;
+    
+}
+
+.spacer {
+    text-align: center;
+    margin: 5px auto;
+    visibility: hidden;
+}
+
+.kontenbg {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    /* background-color: pink; */
+    z-index: -1;
+}
+
+.imgbg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.grida {
+    /* background-color: red; */
+    height: 300px;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+}
+
+.gridy{
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    height: 100%;
+    
+}
+
+.kontenjdl{
+    text-align: center;
+    top: 150px;
+    font-family: Helvetica;
+}
+
+.profil {
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+    position: relative;
+    margin: 5px auto;
+}
+
+.photo{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.desc {
+    height: 100px;
+    width: 200px;
+    padding: 0px;
+    position: relative;
+    margin: -10px auto 0 auto;
+    /* background-color: red; */
+    overflow: scroll;
+    text-align: center;
+    
+}
+
+.namao {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nama {
+    width: 180px;
+    position: relative;
+    text-align: center;
+    margin: 5 auto 0;
+}
+
+.desc::-webkit-scrollbar {
+    display: none;    
+}
+
+.suba, .subb, .subc, .subd {
+    padding: 20px ;
+}
+
+.boks {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 5px 5px 20px black;
+}
+
+#end {
+    position: relative;
+    top: 200px;
+    text-align: center; 
+    /* veri funi haha */
+    opacity: 0;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+/* footer */
+
+#footer {
+    height: 50px;
+    background: #71C9CE;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+    margin-top: 100%;
+}
+
+#footer img {
+    float: left;
+    width: 16px;
+    margin: 20px 0px;
+}
+
+#footer_content {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+#footer p {
+    display: inline-block;
+    margin-left: 5px;
+    color: white;
+}
+
+/* bottom text */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+footer {
+}
